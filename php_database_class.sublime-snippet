@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[<?php
+	
+	if(!defined('INCLUDE_CHECK')) die('You probably shouldn\'t be looking around in here..');
+	
+	class Database{
+
+		public function connect(){
+			
+			$db = array(
+				
+				/* Edit the configuration settings below to connect to your own database */
+
+				//local server
+				'host' 		=> 'localhost',
+				'username' 	=> '$1',
+				'password' 	=> '$2',
+				'dbname' 	=> '$3'
+				
+			);
+			
+			return new PDO('mysql:host='.$db['host'].';dbname='.$db['dbname'], $db['username'], $db['password']);			
+		}
+	}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>PDO</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <description>Boilerplate PHP PDO Database Class</description>
+</snippet>

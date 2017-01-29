@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"0_package_control_loader"
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Colorsublime",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Laravel 5 Artisan",
+		"Laravel Blade Highlighter",
+		"Markdown HTML Preview",
+		"Material Theme",
+		"Package Control",
+		"Sass",
+		"Terminal",
+		"Vue Syntax Highlight"
+	]
+}

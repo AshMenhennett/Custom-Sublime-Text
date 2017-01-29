@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">Dashbaord</div>
+
+                <div class="panel-body">
+                    $1
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>larahome</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <description>Laravel Dashboard</description>
+</snippet>

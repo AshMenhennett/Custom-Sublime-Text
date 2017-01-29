@@ -1,0 +1,30 @@
+[
+	{
+		"class": "sidebar_label",
+		"color": [190,190,190],
+		"font.bold": false,
+		"font.size": 13
+	},
+	{
+        "class": "sidebar_tree",
+        "row_padding": [2, 8],
+        "indent": 10,
+        "indent_offset": 2
+    },
+	{
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [210,210,210],
+        "font.bold": true
+    },
+	{
+        "class": "tab_label",
+        "fg": [255, 255, 255, 190],
+        "font.size" : 12
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [255, 255, 255, 255]
+    },
+]
