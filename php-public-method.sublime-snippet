@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[public function ${1:index}($2)
+{
+    $3
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>phpPublic</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <description>PHP Public Function Template</description>
+</snippet>
