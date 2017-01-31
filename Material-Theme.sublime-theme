@@ -3,13 +3,13 @@
 		"class": "sidebar_label",
 		"color": [190,190,190],
 		"font.bold": false,
-		"font.size": 13
+		"font.size": 17
 	},
 	{
         "class": "sidebar_tree",
-        "row_padding": [2, 8],
-        "indent": 10,
-        "indent_offset": 2
+        "row_padding": [12, 10],
+        "indent": 20,
+        "indent_offset": 2,
     },
 	{
         "class": "sidebar_label",
@@ -26,5 +26,13 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255, 255]
+    },
+    {
+        "class": "puck_control",
+        "layer1.texture": [76, 127, 224],
+        "layer1.tint": [76, 127, 224],
+        "layer0.opacity": 1,
+        "content_margin": 7,
+        "blur": true
     },
 ]
