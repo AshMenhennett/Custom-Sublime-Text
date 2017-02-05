@@ -4,7 +4,7 @@
     $3
 }]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>phpPublic</tabTrigger>
+    <tabTrigger>meth</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <description>PHP Public Function Template</description>
 </snippet>

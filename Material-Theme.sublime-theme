@@ -26,13 +26,5 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "fg": [255, 255, 255, 255]
-    },
-    {
-        "class": "puck_control",
-        "layer1.texture": [76, 127, 224],
-        "layer1.tint": [76, 127, 224],
-        "layer0.opacity": 1,
-        "content_margin": 7,
-        "blur": true
-    },
+    }
 ]

@@ -4,7 +4,7 @@
     $3
 }]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>phpPrivate</tabTrigger>
+    <tabTrigger>methPrivate</tabTrigger>
     <!-- Optional: Description to show in the menu -->
     <description>PHP Private Function Template</description>
 </snippet>

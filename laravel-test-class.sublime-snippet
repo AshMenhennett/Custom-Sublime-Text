@@ -8,6 +8,8 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ${TM_FILENAME/(\w+)\.php/\1/} extends TestCase
 {
+    use DatabaseTransactions;
+    
     ${0}
 }
 ]]></content>

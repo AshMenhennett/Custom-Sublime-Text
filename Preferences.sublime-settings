@@ -1,9 +1,9 @@
 {
 	"auto_complete_selector": "source, text",
 	"auto_indent": true,
-	"color_scheme": "Packages/Colorsublime - Themes/Facebook.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
 	"font_face": "Fira Code",
-	"font_size": 22,
+	"font_size": 21,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -12,11 +12,10 @@
 	],
 	"line_padding_bottom": 8,
 	"line_padding_top": 8,
-	"material_theme_tabs_autowidth": true,
 	"smart_indent": true,
 	"tab_size": 4,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Boxy Yesterday.sublime-theme",
+	"theme_sidebar_font_md": true,
 	"translate_tabs_to_spaces": true,
-	"word_wrap": false,
-	
+	"word_wrap": false
 }
